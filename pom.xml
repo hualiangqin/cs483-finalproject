@@ -20,6 +20,23 @@
       <artifactId>lucene-analyzers-common</artifactId>
       <version>7.7.1</version>
     </dependency>
+    
+    <!-- dependencies for CLU processors -->
+    <dependency>
+   	  <groupId>org.clulab</groupId>
+   	  <artifactId>processors-corenlp_2.12</artifactId>
+   	  <version>8.1.1</version>
+	</dependency>
+	<dependency>
+   	  <groupId>org.clulab</groupId>
+   	  <artifactId>processors-main_2.12</artifactId>
+   	  <version>8.1.1</version>
+	</dependency>
+	<dependency>
+   	  <groupId>org.clulab</groupId>
+   	  <artifactId>processors-odin_2.12</artifactId>
+   	  <version>8.1.1</version>
+	</dependency>
 
   </dependencies>
 
